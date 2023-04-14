@@ -16,7 +16,7 @@ jobs:
         run: npm run build
 
       - name: Run tests
-        run:  npm run test -- src/utils/plusTwo.test.ts
+        run:  npm run test -- src/utils/double.test.ts
 
       - name: Congrats!
         if: success()

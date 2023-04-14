@@ -8,8 +8,14 @@ So, because of that, I create this workshop to promote playing with GitHub Actio
 
 ## PoC
 
-- This repository has a basic function file
--
+- This repository has a basic function
+```
+export function plusTwo({value}: SumProps): number {
+  return (value * 2)
+}
+```
+
+And also a basic test for that `pl
 
 1. Setup the branch
 2. Create `.github/workflows` folder
