@@ -8,24 +8,44 @@ So, because of that, I create this workshop to promote playing with GitHub Actio
 
 ## PoC
 
+#### Code
+
 - This repository has a basic function
 ```
-export function plusTwo({value}: SumProps): number {
+export function double({value}: SumProps): number {
   return (value * 2)
 }
 ```
 
-And also a basic test for that `pl
+And also a basic test for that `double` function
+```
+import { double } from './double'
 
-1. Setup the branch
-2. Create `.github/workflows` folder
-3.
+describe('testing double function', () => {
+  test('should multiply by two the value', () => {
+    const result = double({ value: 5 })
+    expect(result).toBe(10)
+  })
+})
+```
 
-# Getting Started with Create React App
+#### Workflow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### Steps into the `workflow.yml`
 
-## Available Scripts
+1. Display a message
+2. `actions/checkout@v2`
+3. Execute command to install dependencies
+4. Execute command to build the app
+5. Execute command to run the test file
+6. Conditional step if any step before has an error
+7. Conditional step if some step before has an error
+
+# Let's play, and feel free to fail!
+
+---
+
+## Available Scripts in the project
 
 In the project directory, you can run:
 
