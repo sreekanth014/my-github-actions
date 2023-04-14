@@ -17,3 +17,11 @@ jobs:
 
       - name: Run tests
         run:  npm run test -- src/utils/plusTwo.test.ts
+
+      - name: Congrats!
+        if: success()
+        run: echo "Everything is OK!"
+
+      - name: Sorry!
+        if: failure()
+        run: echo "Something wrong happened!"
