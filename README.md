@@ -8,7 +8,7 @@ So, because of that, I create this workshop to promote playing with GitHub Actio
 
 ## PoC
 
-#### Code
+### Code
 
 - This repository has a basic function
 ```
@@ -29,9 +29,9 @@ describe('testing double function', () => {
 })
 ```
 
-#### Workflow
+### Workflow
 
-##### Steps into the `workflow.yml`
+#### Steps into the `workflow.yml`
 
 1. Display a message
 2. `actions/checkout@v2`
