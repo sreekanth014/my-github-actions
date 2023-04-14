@@ -7,7 +7,9 @@ jobs:
     steps:
       - run: echo "Here is the message in GitHub Actions"
 
-      - name: Building...
+      - uses: actions/checkout@v2.1.0
+
+      - name: Building
         run: npm run  build
 
       - name: Install dependencies
