@@ -1,4 +1,15 @@
-# Steps
+# Personal workshop for GitHub Action Items
+
+##### This repository is a PoC on how GitHub Actions works
+
+Regardless of whether this CI/CD task is part of our daily process, sometimes we don't have the space to test, play and try to modify workflows directly.
+
+So, because of that, I create this workshop to promote playing with GitHub Actions
+
+## PoC
+
+- This repository has a basic function file
+-
 
 1. Setup the branch
 2. Create `.github/workflows` folder
