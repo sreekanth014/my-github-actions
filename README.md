@@ -1,5 +1,8 @@
 # Steps
 
+1. Setup the branch
+2. Create `.github/workflows` folder
+3.
 
 # Getting Started with Create React App
 
