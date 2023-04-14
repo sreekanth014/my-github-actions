@@ -8,4 +8,4 @@ jobs:
       - run: echo "Here is the message in GitHub Actions"
 
       - name: Run tests
-        run:  npm run test -- src/utils/plusTwo.test.ts
+        run:  npm run test
